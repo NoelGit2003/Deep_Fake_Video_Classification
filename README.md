@@ -4,9 +4,12 @@ This project aims to develop a deep learning model for detecting deep fake video
 
 ## Dataset
 Dataset consists of 320 real videos and 320 deep fake videos.
+Links to dataset-
+Deep Fake Videos - https://zenodo.org/record/4068245/files/DeepfakeTIMIT.tar.gz?download=1
+Real Videos - https://lp-prod-resources.s3.amazonaws.com/other/detectingdeepfakes/VidTIMIT.zip
 
 ## Model Architecture
-The model architecture used in this project is based on a combination of convolutional neural networks (CNNs) and recurrent neural networks (RNNs). Specifically, a ResNet50 model pretrained on ImageNet is used as the feature extractor for the video frames. This model is followed by a Long Short-Term Memory (LSTM) layer to capture temporal dependencies in the video data. Finally, a dense layer with a sigmoid activation function is added to output the probability of a video being a deep fake.
+The model architecture used in this project is based on a combination of convolutional neural networks (CNNs) and recurrent neural networks (RNNs). Specifically, a ResNet50 model pretrained on ImageNet is used as the feature extractor for the video frames. This model is followed by a Convolutional Long Short-Term Memory (ConvLSTM) layer to capture temporal dependencies in the video data. Finally, a dense layer with a sigmoid activation function is added to output the probability of a video being a deep fake.
 
 ## Training
 The model is trained using a custom training data generator that loads the video frames from the npz files. The training process involves optimizing the binary cross-entropy loss function using the Adam optimizer.
