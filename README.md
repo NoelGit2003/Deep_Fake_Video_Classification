@@ -1,4 +1,4 @@
-#Deep Fake Detection Project
+# Deep Fake Detection Project
 ##Overview
 This project aims to develop a deep learning model for detecting deep fake videos, which are synthetic videos generated using deep learning techniques to manipulate or replace the appearance of people in existing videos. The model is trained on a dataset containing both real and fake videos.
 
