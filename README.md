@@ -1,4 +1,5 @@
 # Deep Fake Detection Project
+
 ## Overview
 This project aims to develop a deep learning model for detecting deep fake videos, which are synthetic videos generated using deep learning techniques to manipulate or replace the appearance of people in existing videos. The model is trained on a dataset containing both real and fake videos.
 
@@ -30,9 +31,13 @@ MTCNN
 
 ## Usage
 Clone the repository.
+
 Download the dataset and preprocess the videos (if necessary).
+
 Train the model using the provided training script.
+
 Evaluate the model's performance on the validation dataset.
+
 Use the trained model for inference on new video data.
 
 ## Contributors
