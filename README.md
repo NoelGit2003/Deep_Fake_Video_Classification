@@ -15,17 +15,17 @@ The model architecture used in this project is based on a combination of convolu
 The model is trained using a custom training data generator that loads the video frames from the npz files. The training process involves optimizing the binary cross-entropy loss function using the Adam optimizer.
 
 ## Dependencies
-Python 3.7+
-TensorFlow
-CV2
-NumPy
-OpenCV
-Matplotlib
-Time
-Shutil
-Concurrent
-OS
-Pathlib
+Python 3.7+,
+TensorFlow,
+CV2,
+NumPy,
+OpenCV,
+Matplotlib,
+Time,
+Shutil,
+Concurrent,
+OS,
+Pathlib,
 MTCNN
 
 ## Usage
